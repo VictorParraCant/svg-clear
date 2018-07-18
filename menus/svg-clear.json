@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle svg-clear",
+        "command": "svg-clear:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "svg-clear",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "svg-clear:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

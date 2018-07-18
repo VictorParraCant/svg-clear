@@ -1,0 +1,25 @@
+{
+  "name": "svg-clear",
+  "main": "./lib/svg-clear",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "private": true,
+  "author": {
+    "name": "Victor Parra Cantero",
+    "email": "victor.parracant@gmail.com",
+    "url": "http://victorparracant.github.io/"
+  },
+  "keywords": [
+    "svg", "formatted", "clear", "svg-formatted", "svg-clear"
+  ],
+  "activationCommands": {
+    "atom-workspace": "svg-clear:toggle"
+  },
+  "repository": "https://github.com/atom/svg-clear",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
