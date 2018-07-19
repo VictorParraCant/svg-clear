@@ -19,7 +19,13 @@
   "activationCommands": {
     "atom-workspace": "svg-clear:toggle"
   },
-  "repository": "https://github.com/VictorParraCant/svg-clear",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorParraCant/svg-clear"
+  },
+  "bugs": {
+    "url": "https://github.com/VictorParraCant/svg-clear/issues"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
