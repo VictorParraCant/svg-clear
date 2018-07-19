@@ -1,7 +1,7 @@
 {
   "name": "svg-clear",
   "main": "./lib/svg-clear",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A short description of your package",
   "private": true,
   "author": {
@@ -10,7 +10,11 @@
     "url": "http://victorparracant.github.io/"
   },
   "keywords": [
-    "svg", "formatted", "clear", "svg-formatted", "svg-clear"
+    "svg",
+    "formatted",
+    "clear",
+    "svg-formatted",
+    "svg-clear"
   ],
   "activationCommands": {
     "atom-workspace": "svg-clear:toggle"
@@ -20,6 +24,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
