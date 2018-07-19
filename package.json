@@ -1,7 +1,7 @@
 {
   "name": "svg-clear",
   "main": "./lib/svg-clear",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A short description of your package",
   "private": true,
   "author": {
@@ -15,7 +15,7 @@
   "activationCommands": {
     "atom-workspace": "svg-clear:toggle"
   },
-  "repository": "https://github.com/atom/svg-clear",
+  "repository": "https://github.com/VictorParraCant/svg-clear",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
