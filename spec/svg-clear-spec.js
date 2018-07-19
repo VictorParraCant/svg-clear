@@ -15,7 +15,7 @@ describe('SvgClear', () => {
     activationPromise = atom.packages.activatePackage('svg-clear');
   });
 
-  describe('when the svg-clear:toggle event is triggered', () => {
+  describe('when the svg-clear:clear event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
@@ -23,7 +23,7 @@ describe('SvgClear', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'svg-clear:toggle');
+      atom.commands.dispatch(workspaceElement, 'svg-clear:clear');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('SvgClear', () => {
 
         let svgClearPanel = atom.workspace.panelForItem(svgClearElement);
         expect(svgClearPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'svg-clear:toggle');
+        atom.commands.dispatch(workspaceElement, 'svg-clear:clear');
         expect(svgClearPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('SvgClear', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'svg-clear:toggle');
+      atom.commands.dispatch(workspaceElement, 'svg-clear:clear');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('SvgClear', () => {
         // Now we can test for view visibility
         let svgClearElement = workspaceElement.querySelector('.svg-clear');
         expect(svgClearElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'svg-clear:toggle');
+        atom.commands.dispatch(workspaceElement, 'svg-clear:clear');
         expect(svgClearElement).not.toBeVisible();
       });
     });

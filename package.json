@@ -2,12 +2,15 @@
   "name": "svg-clear",
   "main": "./lib/svg-clear",
   "version": "0.1.1",
-  "description": "A short description of your package",
+  "description": "Little help for a great design team",
   "private": true,
   "author": {
     "name": "Victor Parra Cantero",
     "email": "victor.parracant@gmail.com",
     "url": "http://victorparracant.github.io/"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
   },
   "keywords": [
     "svg",
@@ -17,7 +20,7 @@
     "svg-clear"
   ],
   "activationCommands": {
-    "atom-workspace": "svg-clear:toggle"
+    "atom-workspace": "svg-clear:clear"
   },
   "repository": {
     "type": "git",
