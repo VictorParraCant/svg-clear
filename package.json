@@ -1,7 +1,7 @@
 {
   "name": "svg-clear",
   "main": "./lib/svg-clear",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Little help for a great design team",
   "private": true,
   "author": {
@@ -30,8 +30,5 @@
     "url": "https://github.com/VictorParraCant/svg-clear/issues"
   },
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
   "dependencies": {}
 }
